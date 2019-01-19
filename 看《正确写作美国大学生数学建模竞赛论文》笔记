@@ -9,3 +9,128 @@
   strengths and weaknesses
   references
  
+• Introduction: Introduce the background and the problem. 
+• Assumptions: Explain all of your assumptions. • Conclusion: Concisely answer the original problem. • Strengths & Weaknesses: Critically assess your approach. 
+• References: Cite all references. 
+
+
+2. 整个建模的过程
+step1: 选题
+
+step2: 研究问题，搜寻资料
+	         查资料的重要性
+		 Your initial research will be critical in framing the problem. 
+		 	对于这个问题要查到的内容：
+			existing models, previous approaches, and especially the nomenclature（专业术语）. 
+
+		 Don’t limit your research to internet sources. 
+			除了之前我在readme.md总结那些网站 这个guide还补充了四个网站
+			Some starting points: 				• Google Scholar 			scholar.google.com 
+				•EngineeringVillage2 		www.engineeringvillage2.org 
+				• Elsevier 				www.elsevier.com 				• IEEE Transactions 		ieeexplore.ieee.org 
+
+step3: 建模 ——建模的核心在于找到题目要解决的核心问题
+		建模的要点
+		🌟 模型需要简明，有逻辑的假设 （All models rely upon simplifying assumptions. ）
+		🌟 建模的时候 一般不只使用了一个模型 大多使用了多个模型 
+    建模的一个基本的过程：使用一系列 不断改进的模型 即使第一个模型有可能很差 但它可以作为后面模型的基础 进行不断改进
+			A common approach to modeling is to use a sequence of increasingly refined models. 
+			Even if the first model egregiously simplifies the problem,
+			 it may provide insights to the basic behavior and inspire improved models. 
+			This progression leads to a respectable and satisfying final model, 
+			with its validity stemming from the preceding models. 
+		🌟    建立了模型之后 需要将自己的模型与理论/其他模型得出的结果进行一些对比
+	
+     step4: 对模型进行评估
+		评估方法
+		• 使用一些指标 对结果进行评测 因为题目大多是实际生活工程的应用，这些指标/公式/准则可以是来自于所查找的文献中的
+			（Try to find a standard criterion from the literature. 
+			   MCM problems often have industrial applications, in which case there are usually standards for measurement and acceptance. ）
+		• 使用一些边界值/特殊值 对模型进行测试 （Be sure that your model does not make absurd predictions for limiting cases. ）
+		• 诚实地评估——Avoid dishonesty and bullshit 
+
+  step5: 撰写摘要（summary sheet/abstract）
+		摘要是论文最重要的一个部分，参赛论文有一半都是因为摘要而被筛掉的
+		摘要应该在结论（conclusion）写完之后开始
+		摘要应该包含：
+		• 问题的重述  states the problem 
+		• 得出结论所需要的方法 the methods for solution 		• 结论 conclusion
+
+		
+
+3.写论文的时候需要注意的要点
+
+	•使用带有描述性标题标题的章节，子章节和子小节。
+ 	•对一些关键词/句子进行加粗
+	•使用项目符号列表。
+	•使用带有简洁字幕的数字和表格。
+
+4.小组的分工
+	
+	A common division of tasks  is to elect 
+		🌟 the writer, whose task is handling most of the writing, 
+		🌟 the programmer, in charge of simulations and other numerical work, 
+		🌟 and “the third,” handling miscellaneous tasks and assisting the other two.
+	
+	 All teammates should participate in the background research and model formulation, 
+	 and all teammates should work together on the summary and final editing. 
+	
+	上面是一个大致的分工 实际可以交叉
+
+5.时间安排
+	实际上，在过了一半的时间之后 就应该完成大部分的工作了 这样才能用后续的时间 检查错误/书写论文
+	时间线
+	On Thursday, all teammates participate in background research, formulating initial models to the problem. 
+        By Friday morning, writing begins. 
+        Late Friday to early Saturday, preliminary results are considered to revise shortcomings of the first models. 
+        By Saturday evening, the revised models yield more satisfactory results, and implications and final conclusions about the problem are drawn. 
+        The remainder of the contest is spent writing. 
+	🌟 第一天：所有成员参与到 对背景/文献的调查中，构想/建立问题的初始模型
+	🌟 第二天早上：开始撰写论文
+	🌟 第二天晚上到第三天的早上：得出初步的结果 修改第一个模型的缺点
+	🌟 在第三天之前：经过改进的模型应该得出一个较为满意的结果，由此得出最终的结果和结论
+	🌟 剩下的时间就是用来书写论文
+
+6.睡眠时间安排
+	官方的指导意见是希望能够通宵作业而不是正常的作息时间
+（Contrary to other guides, we encourage working all-nighters on the first and third nights instead of a natural sleeping schedule. Particularly on Thursday, ）
+        特别是第一天晚上 一定要熬夜的意思 持续的工作效率更高 不会断掉思路
+	但也不是说一定要所有人都要醒着 可以轮换着睡 撑不住了睡一会这样 反正一定要保证有一个人在工作
+	所以比赛前一定要休息好
+	
+7.比赛前的准备工作
+	把所有除比赛以外的事情搞定 保证比赛期间能全心全意准备比赛
+	物理储备 电脑 食物 写作论文模版 草稿纸等
+	知识储备  
+		代码模版 基本的数值分析理如：interpolation, optimization, and solving differential equations. 
+	（三个成员都要学latex那个我跳过了）
+
+8.比赛线
+	第一天：
+		题目查询网址——  www.comap.com/undergraduate/contests/mcm  and   www.mirror.comap.com/mcm 
+		选择题目很困难的时候可以查一些资料 来加深对题目的理解
+		最初成员各自独立的看题目 等看懂了之后 三个人再在一起进行讨论
+	第二天：
+		第二天需要做很多事情->
+		🌟 spent on more research  查更多的资料
+		🌟 formulating the models   构建模型
+		🌟 significant coding  编程
+		🌟 preliminary writing  初试结果的书写
+		第二天一定要集中注意力 高效的进行工作
+		Six hours of research and brainstorming have already passed—you should have something to say by now. 
+	第三天：
+		得出结果 书写论文
+		根据前一天的结果 对模型进行评估 看怎样进行改进 
+		这一天需要进行一些假设（assumption），而这一些假设都要基于你之前查过的资料文献
+		这一天 除非你的 论文/代码写的差不多了 否则别睡
+	第四天：
+		没必要再提出新的思路/代码方法了
+		这时候 应该书写论文的：write the Strengths & Weaknesses and Conclusion 部分
+		书写weakness的时候 ，尽你所能去解决这个weakness。如：运行额外的测试，考虑之前的假设或者使用一些不同的参数
+		到晚上的时候 论文的初稿（除了摘要之外的部分）应该书写的差不多了 
+		如果有时间 就可以开始书写摘要了
+	第五天：
+		即便还有新的思路/结果 也不要往里面加了 这里应该花时间在编辑论文上面了
+		这一天的主要时间应该用在书写摘要之上
+		想出一个合适切题好的标题
+
