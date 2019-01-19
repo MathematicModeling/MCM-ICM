@@ -19,42 +19,48 @@ step1: 选题
 
 step2: 研究问题，搜寻资料
 	         查资料的重要性
-		 Your initial research will be critical in framing the problem. 
+		 1⃣️ Your initial research will be critical in framing the problem. 
 		 	对于这个问题要查到的内容：
 			existing models, previous approaches, and especially the nomenclature（专业术语）. 
 
-		 Don’t limit your research to internet sources. 
+		 2⃣️ Don’t limit your research to internet sources. 
 			除了之前我在readme.md总结那些网站 这个guide还补充了四个网站
-			Some starting points: 				• Google Scholar 			scholar.google.com 
-				•EngineeringVillage2 		www.engineeringvillage2.org 
-				• Elsevier 				www.elsevier.com 				• IEEE Transactions 		ieeexplore.ieee.org 
+			Some starting points:
+				• Google Scholar 			scholar.google.com 
+				• EngineeringVillage2 		        www.engineeringvillage2.org 
+				• Elsevier 				www.elsevier.com
+				• IEEE Transactions 		        ieeexplore.ieee.org 
 
 step3: 建模 ——建模的核心在于找到题目要解决的核心问题
 		建模的要点
 		🌟 模型需要简明，有逻辑的假设 （All models rely upon simplifying assumptions. ）
+		
 		🌟 建模的时候 一般不只使用了一个模型 大多使用了多个模型 
-    建模的一个基本的过程：使用一系列 不断改进的模型 即使第一个模型有可能很差 但它可以作为后面模型的基础 进行不断改进
+		
+    		🌟 建模的一个基本的过程：使用一系列 不断改进的模型 即使第一个模型有可能很差 但它可以作为后面模型的基础 进行不断改进
 			A common approach to modeling is to use a sequence of increasingly refined models. 
 			Even if the first model egregiously simplifies the problem,
 			 it may provide insights to the basic behavior and inspire improved models. 
 			This progression leads to a respectable and satisfying final model, 
 			with its validity stemming from the preceding models. 
-		🌟    建立了模型之后 需要将自己的模型与理论/其他模型得出的结果进行一些对比
+			
+		🌟 建立了模型之后 需要将自己的模型与理论/其他模型得出的结果进行一些对比
 	
-     step4: 对模型进行评估
-		评估方法
-		• 使用一些指标 对结果进行评测 因为题目大多是实际生活工程的应用，这些指标/公式/准则可以是来自于所查找的文献中的
-			（Try to find a standard criterion from the literature. 
-			   MCM problems often have industrial applications, in which case there are usually standards for measurement and acceptance. ）
-		• 使用一些边界值/特殊值 对模型进行测试 （Be sure that your model does not make absurd predictions for limiting cases. ）
-		• 诚实地评估——Avoid dishonesty and bullshit 
+step4: 对模型进行评估
+	 怎么评估？
+	• 使用一些指标 对结果进行评测 因为题目大多是实际生活工程的应用，这些指标/公式/准则可以是来自于所查找的文献中的
+	（Try to find a standard criterion from the literature. MCM problems often have industrial applications, 
+	  in which case there are usually standards for measurement and acceptance. ）
+	• 使用一些边界值/特殊值 对模型进行测试 （Be sure that your model does not make absurd predictions for limiting cases. ）
+	• 诚实地评估——Avoid dishonesty and bullshit 
 
-  step5: 撰写摘要（summary sheet/abstract）
-		摘要是论文最重要的一个部分，参赛论文有一半都是因为摘要而被筛掉的
-		摘要应该在结论（conclusion）写完之后开始
-		摘要应该包含：
-		• 问题的重述  states the problem 
-		• 得出结论所需要的方法 the methods for solution 		• 结论 conclusion
+step5: 撰写摘要（summary sheet/abstract）
+	摘要是论文最重要的一个部分，参赛论文有一半都是因为摘要而被筛掉的
+	摘要应该在结论（conclusion）写完之后开始
+	摘要应该包含：
+	• 问题的重述  states the problem 
+	• 得出结论所需要的方法 the methods for solution
+	• 结论 conclusion
 
 		
 
@@ -93,14 +99,17 @@ step3: 建模 ——建模的核心在于找到题目要解决的核心问题
 
 6.睡眠时间安排
 	官方的指导意见是希望能够通宵作业而不是正常的作息时间
-（Contrary to other guides, we encourage working all-nighters on the first and third nights instead of a natural sleeping schedule. Particularly on Thursday, ）
+（Contrary to other guides, 
+  we encourage working all-nighters on the first and third nights instead of a natural sleeping schedule. 
+  Particularly on Thursday, ）
         特别是第一天晚上 一定要熬夜的意思 持续的工作效率更高 不会断掉思路
 	但也不是说一定要所有人都要醒着 可以轮换着睡 撑不住了睡一会这样 反正一定要保证有一个人在工作
 	所以比赛前一定要休息好
 	
 7.比赛前的准备工作
 	把所有除比赛以外的事情搞定 保证比赛期间能全心全意准备比赛
-	物理储备 电脑 食物 写作论文模版 草稿纸等
+	物理储备 
+	        电脑 食物 写作论文模版 草稿纸等
 	知识储备  
 		代码模版 基本的数值分析理如：interpolation, optimization, and solving differential equations. 
 	（三个成员都要学latex那个我跳过了）
