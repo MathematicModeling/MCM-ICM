@@ -203,5 +203,10 @@ matplotlib库的使用教程：
 论文写作-> https://wenku.baidu.com/view/b59b1dd510661ed9ac51f39c.html?rec_flag=default&sxts=1548219865866
 
 用户登记-> https://www.comap.com/undergraduate/contests/mcm/login.php
+
+别人整理的查找文献的网站集合-> https://www.douban.com/note/485243546/?type=like
+
+PDF转WORD-> https://smallpdf.com/cn/pdf-to-word || https://www.ilovepdf.com
+
                        
 
