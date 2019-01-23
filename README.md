@@ -193,6 +193,7 @@ About 网址：http://www.about.com/
 论文需求：
 
 matplotlib库的使用教程： 中文版-> http://reverland.org/python/2012/09/07/matplotlib-tutorial/
-                       英文版-> https://matplotlib.org
+                       
+                        英文版-> https://matplotlib.org
                        
 
