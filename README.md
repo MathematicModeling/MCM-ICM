@@ -197,5 +197,7 @@ matplotlib库的使用教程：
 中文版-> http://reverland.org/python/2012/09/07/matplotlib-tutorial/
                        
 英文版-> https://matplotlib.org
+
+公式编辑：https://zh.numberempire.com/latexequationeditor.php
                        
 
