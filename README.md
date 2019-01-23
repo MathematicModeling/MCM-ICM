@@ -198,6 +198,8 @@ matplotlib库的使用教程：
                        
 英文版-> https://matplotlib.org
 
-公式编辑：https://zh.numberempire.com/latexequationeditor.php
+公式编辑-> https://zh.numberempire.com/latexequationeditor.php
+
+论文写作-> https://wenku.baidu.com/view/b59b1dd510661ed9ac51f39c.html?rec_flag=default&sxts=1548219865866
                        
 
